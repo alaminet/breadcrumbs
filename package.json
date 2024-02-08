@@ -1,0 +1,29 @@
+{
+  "name": "breadcrumbs-nav",
+  "version": "1.0.2",
+  "description": "Breadcrumbs Navigation for React App",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx babel src --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alaminet/breadcrumbs.git"
+  },
+  "keywords": [
+    "breadcrumbs"
+  ],
+  "author": "alaminet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alaminet/breadcrumbs/issues"
+  },
+  "homepage": "https://github.com/alaminet/breadcrumbs#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.23.3"
+  }
+}
