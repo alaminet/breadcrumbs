@@ -8,7 +8,6 @@ const Breadcrumbs = ({ className, separatorIcon, homeIcon, classNameText }) => {
 
   return (
     <>
-      <h1>Product</h1>
       <div className={`flex items-center gap-1 ${className}`}>
         {(homeIcon && homeIcon) || <FaHome />}
         {bread.slice(1).length > 1 &&

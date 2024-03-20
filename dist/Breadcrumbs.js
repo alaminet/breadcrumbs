@@ -15,7 +15,7 @@ var Breadcrumbs = function Breadcrumbs(_ref) {
     homeIcon = _ref.homeIcon,
     classNameText = _ref.classNameText;
   var bread = window.location.pathname.split("/");
-  return /*#__PURE__*/_react["default"].createElement(_react["default"].Fragment, null, /*#__PURE__*/_react["default"].createElement("h1", null, "Product"), /*#__PURE__*/_react["default"].createElement("div", {
+  return /*#__PURE__*/_react["default"].createElement(_react["default"].Fragment, null, /*#__PURE__*/_react["default"].createElement("div", {
     className: "flex items-center gap-1 ".concat(className)
   }, homeIcon && homeIcon || /*#__PURE__*/_react["default"].createElement(_FaHome["default"], null), bread.slice(1).length > 1 && bread.slice(1).map(function (item, i) {
     return /*#__PURE__*/_react["default"].createElement("div", {
